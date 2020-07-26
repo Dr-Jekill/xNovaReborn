@@ -1,0 +1,178 @@
+body {
+    background: url(../images/login/login_bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+    font-family:Arial,Helvetica,sans-serif;
+}
+*, * * {
+    outline: none;
+    animation: all .2s;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/*/////////////////COLUMNAS////////////////*/
+[class^="col-"]{
+    float:left;
+    height: 100%;
+      padding-right: 15px;
+  padding-left: 15px;
+}
+.col-1{
+    width:8.33333333% ;
+}
+.col-2{
+    width:16.66666667% ;
+}
+.col-3{
+    width:25% ;
+}
+.col-4{
+    width:33.33333333% ;
+}
+.col-5{
+    width:41.66666667% ;
+}
+.col-6{
+    width:50% ;
+}
+.col-7{
+    width:58.33333333% ;
+}
+.col-8{
+    width:66.66666667% ;
+}
+.col-9{
+    width:75% ;
+}
+.col-10{
+    width:83.33333333% ;
+}
+.col-11{
+    width:91.66666667% ;
+}
+.col-12{
+    width:100% ;
+}
+/*//////////////FIN COLUMNAS///////////////*/
+
+.lobby-table {
+    background: #000 url(../theme/gultra/imagenes/bg.jpg) no-repeat;
+    /* width: auto !important; */
+    z-index: 3000 !important;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.content-header{
+    padding: .4em 1em;
+    position: relative;
+    background: -moz-linear-gradient(top,#3d4b5b 0,#2b343f 49%,#1f262d 50%,#1f2934 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#3d4b5b),color-stop(49%,#2b343f),color-stop(50%,#1f262d),color-stop(100%,#1f2934));
+    background: -webkit-linear-gradient(top,#3d4b5b 0,#2b343f 49%,#1f262d 50%,#1f2934 100%);
+    background: -o-linear-gradient(top,#3d4b5b 0,#2b343f 49%,#1f262d 50%,#1f2934 100%);
+    background: -ms-linear-gradient(top,#3d4b5b 0,#2b343f 49%,#1f262d 50%,#1f2934 100%);
+    background: linear-gradient(top,#3d4b5b 0,#2b343f 49%,#1f262d 50%,#1f2934 100%);
+    border: 1px solid #111a22;
+    color: #6f9fc8;
+    font-weight: 700;
+}
+
+.inside-table{
+    margin: 15px;
+    padding: 0px;
+}
+.inside-table .header .row div{
+    background: #000;
+    padding: 6px;
+}
+
+.inside-table .body {
+    margin-top: 10px;
+}
+.whitespace {
+    height: auto;
+}
+
+.inside-table .body .row .bg-t {
+    background: #000610;
+    padding: 6px;
+    margin-bottom: 2px;
+}
+
+.inside-table .body .row .btn-center{
+    margin: auto;
+}
+
+.btn-center button {
+    background: transparent;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+    padding: 4px 7px;
+    text-align: center;
+    height: 29px;
+}
+.btn-center button:hover {
+    background: linear-gradient(to bottom, #00ff14, #006503);
+    border-radius: 3px;
+    color: #000;
+    border: 1px solid #0d3e10;
+}
+.row.header {
+    margin-top: 7em;
+}
+span.new {
+    color: lime;
+    border: 1px solid lime;
+    padding: 2px 7px;
+}
+
+img.btn_imag {
+    width: 21px;
+    /*height: 13px;*/
+    margin-left: 5px;
+    filter: brightness(5.5);
+    margin: auto;
+}
+
+.flex{
+    display: flex !important;
+}
+.p-5{
+    padding: 5px !important;
+}

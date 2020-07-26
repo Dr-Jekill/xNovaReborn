@@ -1,0 +1,36 @@
+
+{include file="adm/overall_header.tpl"}
+<form method="post" action="">
+	<table width="80%" border="0" cellpadding="2">
+    <tr>
+      <th colspan="2"><h3>{$cs_title}</h3></th>
+    </tr>
+	<tr>
+      <td>{$cs_point_per_resources_used} ({$cs_resources})</td>
+      <td><input type="text" name="stat_settings" value="{$stat_settings}"></td>
+    </tr>
+	<tr>
+      <td>{$cs_time_between_updates} ({$cs_minutes})</td>
+      <td><input type="text" name="stat_update_time" value="{$stat_update_time}"></td>
+    </tr>
+    <tr>
+      <td>{$cs_points_to_zero}</td>
+      <td>{html_options name=stat options=$Selector selected=$stat}</td>
+    </tr>
+    <tr>
+      <td>{$cs_access_lvl}</td>
+      <td><input type="text" name="stat_level" value="{$stat_level}"></td>
+    </tr>
+	<tr>
+      <td colspan="2">{$cs_timeact_1} {$timeact}</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <center>
+        <button class="btn btn_blue" type="submit">{$cs_save_changes}</button>
+        </center>
+      </td>
+    </tr>
+  </table>
+</form>
+{include file="adm/overall_footer.tpl"}

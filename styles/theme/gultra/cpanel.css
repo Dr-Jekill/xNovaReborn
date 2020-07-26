@@ -1,0 +1,311 @@
+@charset "utf-8";
+/**
+ _  \_/ |\ | /¯¯\ \  / /\    |¯¯) |_¯ \  / /¯¯\ |  |   |´¯|¯` | /¯¯\ |\ |5
+ ¯  /¯\ | \| \__/  \/ /--\   |¯¯\ |__  \/  \__/ |__ \_/   |   | \__/ | \|Core Redesigned Skin.
+ * @author: Copyright (C) 2011 by Brayan Narvaez (Prinick) developer of xNova Revolution
+ * This skin is stable on all pc browsers and all display resolutions
+ * @link: http://xnovarevforum.com.ar/
+ * Please do not remove the credits
+*/
+body {
+    color: #CCEEFF;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: #000 url(../../images/login/login_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    font-size: 11px;
+    font-weight: normal;
+    font-family:Arial,Helvetica,sans-serif;
+    display: flex;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+*:focus {
+    outline: 0;
+}
+
+table {
+    margin-top: 10px;
+    -moz-border-radius: 7px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.45098039215686275);
+    color: #afafaf;
+    box-shadow: 0 0px 9px 4px #000;
+    margin-bottom: 20px !important;
+    border-spacing: 0;
+    margin: 25px auto;
+    table-layout: auto;
+    width: 80%;
+}
+
+., #, td, th, table
+{
+  font-family	: Tahoma,sans-serif;
+  font-size	: 11px;
+  font-weight          : normal;
+}
+
+img
+{
+  border               : 0px;
+}
+
+#menu {
+    color: #CC3366;
+    width: 150px;
+    height: 652px;
+    position: relative;
+    left: 10px;
+    top: 0px;
+    padding: 0;
+    display: inline;
+}
+
+form table th table input
+{
+  width: 60px;
+}
+
+th {
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    background: #000000b8;
+    box-shadow: 0 9px 7px -2px #000;
+}
+
+td {
+    padding: 10px;
+}
+
+a
+{
+   color                : #66ccff;
+  text-decoration      : none;
+  font-weight          : normal;
+}
+
+a:hover
+{
+  color                : #CDD7F8;
+  text-decoration      : none;
+}
+
+ul {
+list-style: none;
+}
+input, select{
+  font-family: verdana; 
+  font-size: 15px;
+  padding: 9px 16px;
+  border: 0px;
+  background: #00000094;
+  color: #fff;
+  box-shadow: 0 0px 8px inset #000;
+}
+textarea {
+  background: #00000094;
+  color: #fff;
+  font-family: verdana; 
+  font-size: 15px;
+  padding: 9px 16px;
+  box-shadow: 0 0px 8px inset #000;
+  margin: 0px;
+  width: 557px;
+  resize: none;
+  border: 0px;
+}
+/*
+tr td:first-child {
+    width: 300px;
+    display: block;
+}*/
+
+img {
+border: none;
+}
+[colspan]{
+  display: table-cell !important;
+}
+
+.tip {
+color: #fff;
+background:#1d1d1d;
+text-align: center;
+display:none;
+padding:3px 3px 3px 3px;
+position:absolute;    
+z-index:1000;
+max-width: 500px;
+}
+#content{overflow:visible !important;overflow:auto; margin: auto auto;}
+.tooltip, .tooltip_sticky { cursor: pointer; }
+
+
+.form {
+    background: #000000ba;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0px 12px -2px #000;
+    border: .5px solid #0000008c;
+}
+.form_header {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+    box-shadow: 0 10px 11px -8px #000;
+}
+.form_group {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.form_group label {
+    display: block;
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.form_group input, .form_group select {
+    display: block;
+    padding: 7px 10px;
+    font-size: 1.2rem;
+    min-width: -webkit-fill-available;
+}
+.form_inline {
+    display: flex;
+    margin-bottom: .2rem;
+}
+.btn {
+    padding: 12px;
+    border: 0px;
+    background: transparent;
+    color: #fff;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.btn_blue {
+    background: #263f54;
+}
+.btn_blue:hover {
+    background: #406b93;
+}
+.btn_block {
+    display: block;
+    width: 100%;
+}
+#menu li{
+  font-size: 14px;
+}
+#menu li:first-child {
+    background-image: url(../../images/login/xnr.png);
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+    filter: invert();
+}
+
+#menu li.item {
+    background: #000000bd;
+    padding: 6px 7px;
+    margin: 3px;
+    box-shadow: 0 0 29px -5px #0f1327;
+    transition: all 0.3s linear;
+}
+#menu li.item:hover {
+    box-shadow: 0 0 29px -5px #44508e;
+    transform: scale(1.05);
+}
+
+#menu li.item a {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+li.item_separator {
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+    padding: 12px 6px !important;
+    background: #000 !important;
+}
+li.item_separator:hover {
+    transform: scale(1) !important;
+    box-shadow: none !important;
+}
+#menu li:not(.item_separator) {
+    width: 80%;
+    margin: 4px auto;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.72);
+    display: block;
+    padding: 5px;
+    box-shadow: 0 5px 8px 0px #000;
+}
+
+.page {
+    width: 100%;
+}
+.page_frame {
+    display: flex;
+}
+
+.left_menu {
+    width: 17%;
+}
+
+.page_content {
+    width: 83%;
+}
+.content {
+    background: rgba(0, 0, 0, 0.7215686274509804);
+}
+.table_success{
+  border:2px #88ff88 solid;
+  text-align:center;
+  font-weight:bold;
+  background: #88ff88;
+  color: #025d02
+}
+.table_error{
+  border:2px #ff4f4f solid;
+  text-align:center;
+  font-weight:bold;
+  background: #ff4f4f;
+  color: #690000
+}
+ul.estructuras_c li {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-left: 5px;
+    width: 100px !important;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.che {
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    box-shadow: 0px 0px 15px #22960b;
+    border: 1px solid #22960b;
+}
+.intr {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.trade_charge_procent {
+    background: linear-gradient(to bottom, #00ff08 25%, #0a8e0f 54%, #00ff08 100%);
+    background-repeat: no-repeat;
+    width: 200px;
+    border: 1px solid #002901;
+    transition: all 1s;
+}
